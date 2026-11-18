@@ -1,0 +1,443 @@
+{
+  "updated": "2026-11-17",
+  "groups": [
+    { "id": "pratos", "title": "Pratos & Bebidas", "subtitle": "Da xícara de café ao jantar" },
+    { "id": "drinks", "title": "Drinks", "subtitle": "Viva seus melhores momentos intensamente" }
+  ],
+  "categories": [
+    {
+      "id": "cafes-quentes", "group": "pratos", "title": "Cafés Quentes",
+      "img": "assets/img/cappuccino.webp", "imgStyle": "cutout",
+      "blocks": [
+        { "items": [
+          { "name": "Expresso", "variants": [{ "label": "Pequeno", "price": "7,50" }, { "label": "Grande", "price": "12,90" }] },
+          { "name": "Espumone", "desc": "café expresso com leite vaporizado", "variants": [{ "label": "Pequeno", "price": "8,90" }, { "label": "Grande", "price": "14,90" }] },
+          { "name": "Cappuccino Centenário", "tag": "da casa", "desc": "café expresso, leite vaporizado e pedaços de chocolate meio amargo", "variants": [{ "label": "Pequeno", "price": "10,90" }, { "label": "Grande", "price": "14,90" }] },
+          { "name": "Latte", "desc": "café expresso, leite vaporizado e chocolate", "variants": [{ "label": "Pequeno", "price": "9,90" }, { "label": "Grande", "price": "10,90" }] },
+          { "name": "Porção de Chantilly", "price": "6,99" }
+        ] }
+      ]
+    },
+    {
+      "id": "cafes-gelados", "group": "pratos", "title": "Cafés Gelados",
+      "img": "assets/img/frape.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Napolitano", "desc": "café, sorvete de morango, chantilly com raspas de chocolate", "price": "23,90" },
+          { "name": "Frapê Cappuccino", "desc": "café, sorvete de creme, chantilly, calda, chocolate e canela", "price": "23,90" },
+          { "name": "Inglês", "desc": "café, sorvete de creme, whisky e chantilly", "price": "23,90" },
+          { "name": "Russo", "desc": "café, sorvete de creme, vodka, chantilly e chocolate", "price": "21,90" },
+          { "name": "Morena Mulata com Chantilly", "desc": "café, sorvete de chocolate, leite e chantilly", "price": "23,90" },
+          { "name": "Milk Shake", "desc": "morango, chocolate ou creme", "price": "23,90" },
+          { "name": "Milk Shake Crocante", "desc": "sorvete, ovomaltine e calda", "price": "24,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "chocolates-chas", "group": "pratos", "title": "Chocolates & Chás",
+      "blocks": [
+        { "title": "Chocolates", "items": [
+          { "name": "Chocolate Quente", "desc": "chocolate em pó e leite vaporizado", "variants": [{ "label": "Pequeno", "price": "10,90" }, { "label": "Grande", "price": "12,90" }] },
+          { "name": "Chocolate Centenário", "tag": "da casa", "desc": "pedaços de chocolate meio amargo, leite vaporizado e chocolate em pó", "variants": [{ "label": "Pequeno", "price": "10,90" }, { "label": "Grande", "price": "12,90" }] }
+        ] },
+        { "title": "Chás", "items": [
+          { "name": "Chás Nacionais", "desc": "consulte o garçom", "price": "6,99" }
+        ] }
+      ]
+    },
+    {
+      "id": "sanduiches", "group": "pratos", "title": "Sanduíches",
+      "img": "assets/img/sanduiche.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Bauru “Centenário”", "tag": "da casa", "desc": "pão ciabatta, filé mignon, queijo prato, tomate e orégano", "price": "29,90" },
+          { "name": "Filé com Cheddar", "desc": "pão ciabatta, filé mignon, queijo cheddar, cebola caramelizada e batata palha", "price": "29,90" },
+          { "name": "Misto Quente", "desc": "pão ciabatta, queijo, tomate, alface e batata palha", "price": "19,90" },
+          { "name": "Queijo Quente", "desc": "pão ciabatta, queijo, tomate, alface e batata palha", "price": "19,90" },
+          { "name": "Filé de Frango", "desc": "pão ciabatta, filé de frango na chapa, queijo prato derretido, abacaxi grelhado e passas", "price": "29,90" },
+          { "name": "Pepperoni, Rúcula e Tomate Seco", "desc": "pão ciabatta, cream cheese, muçarela, rúcula, pepperoni e tomate seco", "price": "29,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "sertanejos", "group": "pratos", "title": "Sertanejos",
+      "blocks": [
+        { "items": [
+          { "name": "Cartola", "desc": "banana frita, queijo de manteiga, açúcar e canela", "price": "24,90" },
+          { "name": "Pão assado na Manteiga de Garrafa", "price": "4,50" }
+        ] },
+        { "title": "Tapiocas", "compact": true, "items": [
+          { "name": "Tapioca com Manteiga", "price": "6,90" },
+          { "name": "Tapioca com Queijo e Manteiga", "price": "14,90" },
+          { "name": "Tapioca com Queijo, Ovo e Manteiga", "price": "18,90" },
+          { "name": "Tapioca com Banana, Queijo e Canela", "price": "19,90" },
+          { "name": "Tapioca Carne de Sol, Queijo e Nata", "price": "26,90" },
+          { "name": "Tapioca com Frango e Catupiry", "price": "23,90" },
+          { "name": "Tapioca Pizza", "price": "19,90" }
+        ] },
+        { "title": "Cuscuz", "compact": true, "items": [
+          { "name": "Cuscuz com Queijo, Ovo e Manteiga", "price": "24,90" },
+          { "name": "Cuscuz com Carne de Sol, Queijo Coalho e Nata", "price": "29,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "salgados", "group": "pratos", "title": "Salgados",
+      "img": "assets/img/pao-de-queijo.webp", "imgStyle": "cutout",
+      "blocks": [
+        { "compact": true, "items": [
+          { "name": "Cestinha de Pão de Queijo", "price": "23,90" },
+          { "name": "Torta de Frango", "price": "19,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "petiscos", "group": "pratos", "title": "Petiscos",
+      "img": "assets/img/mini-burger.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Burrata", "desc": "burrata ao molho de tomate rústico, molho pesto, rúcula e manjericão", "price": "54,90" },
+          { "name": "Provolet a Chez", "desc": "bastões de provolone temperados e empanados no panko", "price": "45,90" },
+          { "name": "Picanha do Reino", "desc": "picanha coberta com queijo do reino, pétalas de cebola, vinagrete e farofa", "price": "75,90" },
+          { "name": "Panceta de Porco", "desc": "panceta de porco pururuca, acompanha molho barbecue e fritas de churrasco", "price": "55,00" },
+          { "name": "Mignon em Cubos", "desc": "cubos de filé ao ponto, molho demi-glace e torradas de pão artesanal", "price": "49,90" },
+          { "name": "Ancho Sertanejo", "desc": "300g de bife ancho em tiras, acompanha fritas e molho especial", "price": "99,00" },
+          { "name": "L’entrecote do Sertão", "desc": "generosa fatia de contrafilé em tiras, acompanhada de fritas de churrasco e molho especial", "price": "99,00" },
+          { "name": "Carpaccio", "desc": "lâminas de carne, sal, pimenta-do-reino, redução de balsâmico, molho de azeite e mostarda, finalizado com rúcula e lascas · acompanha torradas", "price": "48,90" },
+          { "name": "Mini Burger da Casa", "desc": "mini-hambúrgueres cobertos com bacon e molho gorgonzola", "variants": [{ "label": "3 un.", "price": "39,90" }, { "label": "6 un.", "price": "75,90" }] },
+          { "name": "Camarão Crocante", "desc": "camarões empanados com queijo parmesão, acompanha fritas e geleia de pimenta", "price": "99,00" },
+          { "name": "Camarão Recheado", "desc": "camarão recheado com requeijão cremoso e empanado", "price": "59,90" },
+          { "name": "Tábua de Frios", "desc": "salame, queijo do reino, queijo gouda, gorgonzola, provolone, presunto, palmito, azeitonas e ovos de codorna", "price": "89,90" }
+        ] },
+        { "title": "Bruschettas", "compact": true, "items": [
+          { "name": "Bruschetta Tradizionale", "price": "35,90" },
+          { "name": "Bruschetta de Salmão", "price": "59,90" },
+          { "name": "Trio de Bruschetta", "price": "45,90" }
+        ] },
+        { "title": "Bolinhos e coxinhas · 5 unidades", "items": [
+          { "name": "Bolinho de Bacalhau", "price": "49,90" },
+          { "name": "Coxinha de Frango", "desc": "coxinhas de frango sem massa, empanadas com farinha panko", "price": "35,90" },
+          { "name": "Coxinha de Filé de Sol", "desc": "coxinhas de filé de sol empanadas e sem massa", "price": "39,90" },
+          { "name": "Coxinha de Salmão", "desc": "coxinhas recheadas de salmão e cream cheese", "price": "55,90" },
+          { "name": "Pastéis", "desc": "queijo, carne de sol ou bacalhau", "variants": [{ "label": "Queijo", "price": "29,90" }, { "label": "Carne de sol", "price": "39,90" }, { "label": "Bacalhau", "price": "45,90" }] }
+        ] },
+        { "title": "Caldinhos e frios", "compact": true, "items": [
+          { "name": "Caldinho de Camarão", "price": "28,90" },
+          { "name": "Caldinho de Peixe", "price": "25,90" },
+          { "name": "Caldinho de Feijoada", "price": "24,90" },
+          { "name": "Buffet de Frios 100g", "price": "32,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "crepes", "group": "pratos", "title": "Crepes",
+      "img": "assets/img/crepe.webp", "imgStyle": "arch",
+      "blocks": [
+        { "title": "Salgados", "note": "Os crepes salgados acompanham seleta de alface e tomates.", "items": [
+          { "name": "Filé Mignon", "desc": "filé mignon em tiras, muçarela, azeitonas, tomate, cebola e catupiry", "price": "49,90" },
+          { "name": "Carne de Sol", "desc": "carne de sol desfiada, azeitonas, nata, cebola, tomate e catupiry", "price": "45,90" },
+          { "name": "Camarão", "desc": "camarão, muçarela, azeitonas, tomate, cebola e catupiry", "price": "55,90" },
+          { "name": "Bacalhau", "desc": "bacalhau, muçarela, nata, azeitona preta, cebola e catupiry", "price": "55,90" },
+          { "name": "Frango", "desc": "frango desfiado, muçarela, tomate, cebola, azeitona e catupiry", "price": "39,90" },
+          { "name": "Frango com Palmito", "desc": "frango desfiado, palmito, muçarela, tomate, cebola, azeitona e catupiry", "price": "45,90" },
+          { "name": "Palmito", "desc": "palmito, muçarela, tomate, cebola, azeitona e catupiry", "price": "39,90" },
+          { "name": "4 Queijos", "desc": "gorgonzola, provolone, catupiry, muçarela e orégano", "price": "49,90" },
+          { "name": "Pizza", "desc": "muçarela, presunto, tomate, cebola, catupiry, azeitonas e orégano", "price": "39,90" }
+        ] },
+        { "title": "Doces", "items": [
+          { "name": "Cartola", "desc": "muçarela, banana, açúcar, canela e calda de chocolate", "price": "36,90" },
+          { "name": "Romeu e Julieta", "desc": "muçarela e creme de goiaba", "price": "34,90" },
+          { "name": "Chocolate com Frutas", "desc": "brigadeiro, morango, banana, abacaxi, manga e chocolate granulado", "price": "39,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "massas-risotos", "group": "pratos", "title": "Massas e Risotos",
+      "img": "assets/img/fettuccine.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Filé Casa Blanca", "desc": "filé mignon ao molho de 4 queijos acompanhado de espaguete", "price": "75,00" },
+          { "name": "Fettuccine ao Molho Pesto com Filé Mignon", "desc": "fettuccine regado ao molho pesto, acompanhado de medalhão de filé mignon ao molho bechamel", "price": "69,90" },
+          { "name": "Fettuccine com Camarões ao Molho de Tomates", "desc": "fettuccine com camarões grelhados puxados na bisque de camarão, molho provençal e finalizado com molho pesto", "price": "69,90" },
+          { "name": "Filé à Parmegiana com Spaghetti", "desc": "filé mignon gratinado com queijo, coberto com molho de tomates artesanal, acompanhado de spaghetti e purê de batatas", "price": "49,90" },
+          { "name": "Fettuccine com Frango à Parmegiana", "desc": "fettuccine, frango empanado e gratinado com queijo, molho de tomates artesanal com azeitonas, finalizado com queijo parmesão", "price": "45,90" },
+          { "name": "Risoto de Filé com Gorgonzola", "desc": "risoto cremoso com cubos e medalhão de filé e lascas de gorgonzola, finalizado com molho demi-glace", "price": "69,90" },
+          { "name": "Risoto de Damasco e Camarões Crocantes", "desc": "risoto cremoso com damascos em cubos e camarões crocantes, finalizado com parmesão", "price": "75,00" },
+          { "name": "Risoto de Salmão", "desc": "salmão grelhado, arroz arbóreo, caldo de legumes, finalizado com manteiga e parmesão", "price": "75,00" },
+          { "name": "Risoto 4 Queijos", "desc": "gorgonzola, catupiry, muçarela e parmesão, caldo de legumes, finalizado com manteiga", "price": "49,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "omeletes", "group": "pratos", "title": "Omeletes",
+      "blocks": [
+        { "items": [
+          { "name": "Omelete de Bacalhau", "desc": "recheio de bacalhau, azeitonas pretas, palmito, tomate e cebola", "price": "59,90" },
+          { "name": "Omelete de Carne de Sol", "desc": "recheio de carne de sol desfiada, nata, tomate e cebola", "price": "49,90" },
+          { "name": "Omelete de Frango", "desc": "recheio de frango, azeitonas verdes, tomate e cebola", "price": "39,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "saladas", "group": "pratos", "title": "Saladas",
+      "img": "assets/img/salada.webp", "imgStyle": "arch",
+      "blocks": [
+        { "note": "Todas as saladas acompanham torradas e lâminas de amêndoas.", "items": [
+          { "name": "Salada Toscana", "desc": "salada verde, tomate seco, tomate, muçarela de búfala, azeitona preta, molho de mostarda e mel, parmesão e torradas de pão artesanal", "price": "59,00" },
+          { "name": "Salada Centenário", "tag": "da casa", "desc": "salada verde, tomate, ricota, abacaxi e morango, com uma opção de proteína", "variants": [
+            { "label": "Frango · mostarda e mel", "price": "49,90" },
+            { "label": "Filé mignon · mostarda e mel", "price": "59,90" },
+            { "label": "Salmão · maracujá", "price": "69,90" },
+            { "label": "Camarão · maracujá", "price": "69,90" }
+          ] }
+        ] }
+      ]
+    },
+    {
+      "id": "carnes", "group": "pratos", "title": "Carnes",
+      "img": "assets/img/file-pure.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Panceta de Porco na Rapadura", "desc": "panceta de porco pururucada, servida com purê de abóbora e rôti de rapadura", "price": "55,00" },
+          { "name": "Filé à Parmegiana", "desc": "filé mignon gratinado com queijo, coberto com molho de tomates artesanal, acompanhado de arroz branco e fritas", "price": "55,90" },
+          { "name": "Filé com Purê de Batata-Doce Defumado", "desc": "filé alto grelhado, acompanhado de purê de batata-doce defumada, molho demi-glace e farofa de focaccia", "price": "69,90" },
+          { "name": "Filé ao Poivre", "desc": "filé flambado com conhaque, demi-glace e pimenta verde, servido com purê de batatas", "price": "69,90" },
+          { "name": "Filé Laçador", "desc": "medalhões de filé mignon grelhados com bacon, regados com molho demi-glace, acompanhados de arroz à piemontese", "price": "75,00" },
+          { "name": "Filé Centenário", "tag": "da casa", "desc": "filé mignon ao molho demi-glace, servido com purê de batata e farofa de focaccia", "price": "69,00" },
+          { "name": "Picanha Grelhada", "desc": "picanha grelhada, arroz à piemontese e fritas", "price": "75,00" },
+          { "name": "Picanha do Reino", "desc": "picanha coberta com queijo do reino, arroz branco, pétalas de cebola e farofa", "price": "79,90" },
+          { "name": "Bode Sertanejo", "desc": "carne de bode guisada, servida com arroz branco, feijão verde e farofa de cuscuz", "price": "64,90" },
+          { "name": "Feijoada", "tag": "aos sábados", "desc": "tradicional feijoada servida com arroz branco, batata-doce, farofa, couve refogada, laranja e rapadura", "price": "49,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "aves", "group": "pratos", "title": "Aves",
+      "img": "assets/img/frango-legumes.webp", "imgStyle": "arch",
+      "blocks": [
+        { "items": [
+          { "name": "Frango Grelhado com Spaghetti de Legumes", "desc": "frango grelhado, acompanhado de spaghetti de legumes e molho pesto", "price": "39,90" },
+          { "name": "Frango Little Havana", "desc": "filé de frango empanado servido com arroz à grega, purê de batatas e banana frita", "price": "49,90" },
+          { "name": "Fettuccine com Frango à Parmegiana", "desc": "fettuccine, frango empanado e gratinado com queijo, molho de tomates artesanal com azeitonas, finalizado com queijo parmesão", "price": "49,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "peixes", "group": "pratos", "title": "Peixes e Frutos do Mar",
+      "img": "assets/img/camarao-internacional.webp", "imgStyle": "arch",
+      "blocks": [
+        { "title": "Bacalhau e pescada", "items": [
+          { "name": "Bacalhau na Nata", "desc": "bacalhau desfiado no molho de nata, cebolas caramelizadas e azeitonas pretas · acompanha batatas assadas e arroz branco", "price": "59,90" },
+          { "name": "Bacalhau à Primavera", "desc": "posta de filé de bacalhau, purê de batata com castanha, aromatizado no azeite, coberto com pimentões coloridos · acompanha batatas com castanhas e arroz com brócolis", "price": "90,00" },
+          { "name": "Pescada com Arroz Cremoso de Maracujá", "desc": "filé de pescada amarela servido com arroz cremoso de maracujá", "price": "64,90" },
+          { "name": "Pescada com Purê e Legumes no Vapor", "desc": "filé de pescada amarela, purê e legumes ao vapor", "price": "59,90" }
+        ] },
+        { "title": "Salmão", "items": [
+          { "name": "Salmão ao Molho de Maracujá", "desc": "salmão grelhado coberto com molho de maracujá · acompanha purê de batatas e legumes sauté", "price": "79,90" },
+          { "name": "Salmão com Risoto de Limão Siciliano", "desc": "salmão grelhado, acompanhado de risoto de limão-siciliano e queijo parmesão", "price": "79,90" },
+          { "name": "Salmão Grelhado com Spaghetti de Legumes", "desc": "salmão grelhado com spaghetti de legumes finalizado com molho pesto", "price": "69,90" }
+        ] },
+        { "title": "Camarão", "items": [
+          { "name": "Camarão Internacional", "desc": "camarões recheados com catupiry sobre um cremoso arroz de moqueca com camarões e coentro, coberto com batata palha", "price": "95,00" },
+          { "name": "Camarão Cremoso", "desc": "camarões ao molho bechamel · acompanha arroz com brócolis e fritas", "price": "69,90" },
+          { "name": "Camarão à Parmegiana", "desc": "camarões empanados fritos, molho de tomate, muçarela gratinada, spaghetti e purê", "price": "69,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "kids", "group": "pratos", "title": "Kids",
+      "blocks": [
+        { "items": [
+          { "name": "Opção 1", "desc": "cubos de filé, arroz e fritas", "price": "39,90" },
+          { "name": "Opção 2", "desc": "cubos de frango, arroz branco e fritas", "price": "35,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "porcoes", "group": "pratos", "title": "Porções",
+      "blocks": [
+        { "compact": true, "items": [
+          { "name": "Arroz Branco", "price": "14,90" },
+          { "name": "Arroz à Grega", "price": "18,90" },
+          { "name": "Arroz à Piemontese", "price": "19,90" },
+          { "name": "Arroz com Brócolis", "price": "16,90" },
+          { "name": "Feijão Verde", "price": "12,90" },
+          { "name": "Purê", "price": "10,90" },
+          { "name": "Farofa", "price": "9,90" },
+          { "name": "Salada", "desc": "alface, tomate, cenoura e cebola", "price": "9,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "sobremesas", "group": "pratos", "title": "Adoçando a Vida",
+      "img": "assets/img/pudim.webp", "imgStyle": "cutout",
+      "blocks": [
+        { "items": [
+          { "name": "Banana Brazilian", "desc": "bananas em cubos empanadas com açúcar e canela, acompanhadas de sorvete de creme", "variants": [{ "label": "Individual", "price": "23,90" }, { "label": "Compartilhar", "price": "29,90" }] },
+          { "name": "Torta (100g)", "desc": "consulte os sabores", "price": "21,90" },
+          { "name": "Torta Alemã", "desc": "fatia", "price": "24,90" },
+          { "name": "Petit Gâteau", "price": "30,00" },
+          { "name": "Pudim de Avelã", "price": "19,90" },
+          { "name": "Pudim de Leite", "price": "14,90" },
+          { "name": "Creme de Papaia com Licor de Cassis", "price": "25,90" },
+          { "name": "Crepe de Chocolate com Frutas", "desc": "brigadeiro, morango, banana, abacaxi e manga", "price": "39,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "bebidas", "group": "pratos", "title": "Bebidas",
+      "blocks": [
+        { "compact": true, "items": [
+          { "name": "Água sem Gás", "price": "8,90" },
+          { "name": "Água com Gás", "price": "8,90" },
+          { "name": "Água Tônica", "price": "8,90" },
+          { "name": "Água de Coco", "desc": "copo", "price": "9,90" },
+          { "name": "Refrigerante", "desc": "lata", "price": "8,90" },
+          { "name": "Energético", "price": "19,90" },
+          { "name": "Suco", "desc": "copo", "price": "9,90" },
+          { "name": "Suco de Morango", "desc": "copo", "price": "14,90" },
+          { "name": "Limonada Suíça", "price": "15,90" },
+          { "name": "H2O", "price": "8,90" }
+        ] }
+      ]
+    },
+    {
+      "id": "cervejas", "group": "pratos", "title": "Cervejas",
+      "blocks": [
+        { "items": [
+          { "name": "Heineken", "variants": [{ "label": "Unidade", "price": "12,90" }, { "label": "Balde", "price": "59,90" }] },
+          { "name": "Stella Pure Gold", "variants": [{ "label": "Unidade", "price": "12,90" }, { "label": "Balde", "price": "59,90" }] },
+          { "name": "Budweiser", "variants": [{ "label": "Unidade", "price": "9,90" }, { "label": "Balde", "price": "47,50" }] },
+          { "name": "Corona", "variants": [{ "label": "Unidade", "price": "12,90" }] }
+        ] }
+      ]
+    },
+    {
+      "id": "destilados", "group": "pratos", "title": "Destilados & Licores",
+      "blocks": [
+        { "title": "Destilados", "note": "Clube: compre a garrafa e ela fica guardada para você.", "items": [
+          { "name": "Vodka Absolut", "variants": [{ "label": "Dose", "price": "18,90" }, { "label": "Clube", "price": "189,00" }] },
+          { "name": "Vodka Grey Goose", "variants": [{ "label": "Dose", "price": "21,90" }, { "label": "Clube", "price": "269,00" }] },
+          { "name": "Vodka Cîroc", "variants": [{ "label": "Dose", "price": "21,90" }, { "label": "Clube", "price": "269,00" }] },
+          { "name": "Vodka Smirnoff", "desc": "dose", "price": "9,90" },
+          { "name": "Rum Montilla", "desc": "dose", "price": "12,90" },
+          { "name": "Martini", "desc": "dose", "price": "8,90" },
+          { "name": "Campari", "desc": "dose", "price": "9,00" },
+          { "name": "Conhaque Domecq", "desc": "dose", "price": "9,00" },
+          { "name": "Tequila José Cuervo", "desc": "dose", "price": "15,90" },
+          { "name": "Gin Tanqueray", "tag": "importado", "desc": "dose", "price": "19,90" },
+          { "name": "Gin Bombay", "desc": "dose", "price": "19,00" }
+        ] },
+        { "title": "Licores", "compact": true, "items": [
+          { "name": "Licor 43", "price": "24,90" },
+          { "name": "Frangelico", "price": "23,90" },
+          { "name": "Amarula", "price": "23,90" },
+          { "name": "Cointreau", "price": "23,90" }
+        ] },
+        { "title": "Aguardentes", "items": [
+          { "name": "Triunfo", "variants": [{ "label": "Dose", "price": "9,99" }, { "label": "Garrafa", "price": "29,90" }] },
+          { "name": "Matuta Umburana", "variants": [{ "label": "Dose", "price": "9,99" }, { "label": "Garrafa", "price": "29,90" }] },
+          { "name": "Serra Limpa", "variants": [{ "label": "Dose", "price": "13,90" }, { "label": "Garrafa", "price": "49,90" }] }
+        ] }
+      ]
+    },
+    {
+      "id": "whiskys", "group": "pratos", "title": "Whiskys",
+      "blocks": [
+        { "note": "Adquira sua garrafa e faça parte do nosso clube.", "items": [
+          { "name": "Old Parr", "variants": [{ "label": "Dose", "price": "23,00" }, { "label": "Clube", "price": "269,00" }] },
+          { "name": "Chivas 12 anos", "variants": [{ "label": "Dose", "price": "22,00" }, { "label": "Clube", "price": "240,00" }] },
+          { "name": "Johnnie Walker Gold Label", "variants": [{ "label": "Dose", "price": "35,00" }, { "label": "Clube", "price": "370,00" }] },
+          { "name": "Johnnie Walker Black", "variants": [{ "label": "Dose", "price": "23,90" }, { "label": "Clube", "price": "280,00" }] },
+          { "name": "Johnnie Walker Red", "variants": [{ "label": "Dose", "price": "16,90" }, { "label": "Clube", "price": "199,00" }] },
+          { "name": "Black & White", "variants": [{ "label": "Dose", "price": "16,90" }, { "label": "Clube", "price": "129,00" }] },
+          { "name": "Buchanan’s", "variants": [{ "label": "Dose", "price": "27,90" }, { "label": "Clube", "price": "339,00" }] },
+          { "name": "Jack Daniel’s", "variants": [{ "label": "Dose", "price": "18,90" }, { "label": "Clube", "price": "229,00" }] }
+        ] }
+      ]
+    },
+    {
+      "id": "vinhos", "group": "pratos", "title": "Sabores do Mundo · Vinhos",
+      "note": "Taxa de rolha: R$ 60,00.",
+      "blocks": [
+        { "title": "Taça", "compact": true, "items": [
+          { "name": "Tinto ou Branco", "price": "29,90" }
+        ] },
+        { "title": "Argentina", "compact": true, "items": [
+          { "name": "Trapiche Malbec", "price": "100,00" },
+          { "name": "Chac Chac", "price": "130,00" },
+          { "name": "Cordero con Piel de Lobo", "price": "130,00" },
+          { "name": "Latitud 33", "price": "120,00" },
+          { "name": "Perro Callejero", "price": "170,00" },
+          { "name": "Pispi Blend de Tintas", "price": "250,00" }
+        ] },
+        { "title": "Chile", "compact": true, "items": [
+          { "name": "Concha y Toro Reservado Carménère", "price": "90,00" },
+          { "name": "Cosecha Tarapacá Chardonnay", "price": "90,00" },
+          { "name": "Cosecha Tarapacá Tinto", "price": "90,00" },
+          { "name": "Casillero del Diablo Carménère", "price": "110,00" },
+          { "name": "Pérez Cruz", "price": "200,00" },
+          { "name": "Tarapacá Gran Reserva Carménère", "price": "250,00" }
+        ] },
+        { "title": "Portugal", "compact": true, "items": [
+          { "name": "Rapariga da Quinta", "price": "100,00" },
+          { "name": "Periquita", "price": "130,00" },
+          { "name": "Casal Garcia Sweet", "price": "110,00" },
+          { "name": "Quinta dos Bons Ventos", "price": "100,00" },
+          { "name": "Terras de Xisto", "price": "119,00" },
+          { "name": "Mesa do Presidente", "price": "119,00" },
+          { "name": "Vinho do Porto", "desc": "cálice", "price": "18,00" }
+        ] },
+        { "title": "Itália", "compact": true, "items": [
+          { "name": "Lambrusco Anella Branco", "price": "90,00" },
+          { "name": "Trinacria Tinto", "price": "95,00" },
+          { "name": "Liberi di Dere Bene", "price": "100,00" }
+        ] },
+        { "title": "Espanha", "compact": true, "items": [
+          { "name": "Esteban Martín Chardonnay", "price": "99,00" }
+        ] },
+        { "title": "Uruguai", "compact": true, "items": [
+          { "name": "Don Pascual Tannat", "price": "90,00" }
+        ] },
+        { "title": "França", "compact": true, "items": [
+          { "name": "Tonéletce", "price": "99,00" }
+        ] },
+        { "title": "Espumantes", "compact": true, "items": [
+          { "name": "Chandon Brut", "price": "178,00" },
+          { "name": "Prosecco", "price": "100,00" }
+        ] }
+      ]
+    },
+    {
+      "id": "drinks-classicos", "group": "drinks", "title": "Drinks", "layout": "cards",
+      "note": "Alguns drinks acompanham especiarias como pimenta vermelha, preta e rosa, anis-estrelado, zimbro, hibisco, frutas secas e canela defumada.",
+      "blocks": [
+        { "items": [
+          { "name": "Aperol Spritz", "desc": "Aperol, tônica, laranja e gelo", "price": "30,00", "img": "assets/img/aperol.webp" },
+          { "name": "Moscow Mule", "desc": "vodka, sumo de limão, suco de gengibre, soda e espuma de gengibre", "price": "30,00", "img": "assets/img/moscow-mule.webp" },
+          { "name": "New York", "desc": "vodka, whisky, triple sec, néctar de gengibre e suco de limão", "price": "30,00", "img": "assets/img/new-york.webp" },
+          { "name": "Especial London", "desc": "gin, xarope de gengibre, sumo de limão e tônica", "price": "30,00", "img": "assets/img/especial-london.webp" },
+          { "name": "Citron Red", "desc": "vodka, sumo de limão, suco de laranja, água com gás e néctar de frutas vermelhas", "price": "35,00", "img": "assets/img/citron-red.webp" },
+          { "name": "Gin Tanqueray & Tônica", "desc": "gin, tônica e 3 frutas", "price": "35,00", "img": "assets/img/tanqueray.webp" },
+          { "name": "Gin & Tônica", "desc": "gin da casa, tônica e limão-siciliano", "price": "35,00", "img": "assets/img/gin-tonica.webp" },
+          { "name": "Scorpion", "desc": "gin, licor de pêssego, suco de limão e água tônica", "price": "30,00", "img": "assets/img/scorpion.webp" },
+          { "name": "Sky Moon", "desc": "Martini Bianco, licor blue, soda e borda de sal", "price": "25,00", "img": "assets/img/sky-moon.webp" },
+          { "name": "Limoncello Spritz", "desc": "limoncello, água com gás, espumante brut, limão e gelo", "price": "37,00" },
+          { "name": "Absolut com Morango", "desc": "vodka, gelo, açúcar e morangos", "price": "35,00" },
+          { "name": "Lemon and Strawberry", "desc": "vodka, limão, morango, xarope de açúcar e gelo", "price": "30,00" },
+          { "name": "Marguerita", "desc": "tequila, triple sec, suco de limão, sal e açúcar", "price": "30,00" },
+          { "name": "Caipirinha", "desc": "cachaça, limão, açúcar e gelo", "price": "25,00", "img": "assets/img/caipirinha.webp" }
+        ] }
+      ]
+    },
+    {
+      "id": "drinks-sem-alcool", "group": "drinks", "title": "Sem álcool", "layout": "cards",
+      "blocks": [
+        { "items": [
+          { "name": "Italian Soda", "tag": "zero álcool", "desc": "xarope de maçã verde ou de frutas vermelhas, água com gás e gelo", "price": "15,00" },
+          { "name": "Coquetel de Frutas", "tag": "com ou sem álcool","price": "23,00" }
+        ] }
+      ]
+    }
+  ]
+}
