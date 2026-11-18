@@ -11,3 +11,8 @@ Funciona no GitHub Pages, Netlify ou Vercel. Para testar localmente: `python3 -m
 
 Item do cardápio: `{ "name", "price": "00,00", "desc"?, "tag"?, "img"?, "hidden"?, "variants"?: [{ "label", "price" }] }`.
 Categoria com `"layout": "cards"` vira grade de cards com foto (usado nos drinks).
+
+## Painel do cardápio
+
+Em `/admin/` há um painel para editar o `data/menu.json` sem mexer em código (preços, produtos, fotos, categorias).
+Ele grava direto no repositório pela API do GitHub. A configuração inicial e o uso estão em [ADMIN.md](ADMIN.md).
