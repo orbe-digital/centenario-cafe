@@ -17,7 +17,7 @@ site sozinho em 1 a 2 minutos. Não há nenhum servidor ou serviço externo.
 
 1. **Crie o token** em GitHub → Settings → Developer settings →
    Personal access tokens → **Fine-grained tokens** → *Generate new token*:
-   - **Resource owner:** `orbedigital-sites`
+   - **Resource owner:** `orbe-digital`
    - **Repository access:** *Only select repositories* → `centenario-cafe`
      (não use *Public repositories*: essa opção é somente leitura e o painel
      dá erro 403 ao publicar)
